@@ -63,9 +63,6 @@ public class Main {
 		stackObject.push(inputNumber);
 		System.out.println("Pushed " + stackObject.at(0));
 		System.out.println("List: " + stackObject.str());
-		//pop from list
-		System.out.println("Poped " + stackObject.pop());
-		System.out.println("List: " + stackObject.str());
 	}
 }
 
