@@ -47,16 +47,6 @@ public class MyStack<Type> {
 		return list.get(place);
 	}
 
-
-	//-----------------------
-	public Type pop() {
-		//pops the last value from the stack and return it
-								//last index
-		Type value = list.get(list.size() - 1);
-		list.remove(value);
-		return value;
-	}
-	
 	//-----------------------
 	public void push(Type value) {
 		//append an object to the end of the stack
